@@ -38,12 +38,11 @@ body {
 }
 
 .index {
-	margin-top: 30px;
-	width: 94%;
-	height: 120px;
 	margin-left: 3%;
 	margin-right: 3%;
 	background-color: #b79397 ;
+	padding: 1rem;
+	margin-top: 1rem;
 }
 
 .indexcontext {
@@ -52,14 +51,14 @@ body {
 }
 
 .notlink {
-    text-decoration: none;
-    color: black;
-    background-color: white;
+	text-decoration: none;
+	color: black;
+	background-color: white;
 	border-radius: 25px;
 	border: solid 1px #755659 ;
 	padding: 0.4rem;
-    cursor: pointer;
-    transition-duration: 0.1s;
+	cursor: pointer;
+	transition-duration: 0.1s;
 }
 
 .notlink:hover{
