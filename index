@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JING</title>
+    <link href="webstyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+	<div id="title">
+		<h1 >jingの天地</h1>
+	</div>
+
+	<br>
+
+	<nav class="navigator">
+		<button type="button" class="nav-item">记录📖</button>
+		<button type="button" class="nav-item">减肥🏃🏻‍♀️</button>
+		<button type="button" class="nav-item">Todo📝</button>
+	</nav>
+
+	<div class="index">
+		<h2 style="text-align: center;">目录</h2>
+		<div class="indexcontext">
+			<p><a class="notlink" href="#30032024">30 • 3 • 2024</a></p>
+			<p><a class="notlink" href="#21062024">21 • 6 • 2024</a></p>
+		</div>
+	</div>
+
+	<div>
+		<section class="post-box">
+			<h3 id="30032024">🌟6 - 30 • 3 • 2024</h3>
+			<p>今天刚又想做自己的网站了</p>
+		</section>
+
+		<section class="post-box">
+			<h3 id="21062024">🌟5 - 21 • 6 • 2024</h3>
+			<p>三个月...又回来了🌝 哈哈这次想把Todo和减肥记录放进来  好麻烦, 我想把这页记录放进一个新的页面, 也想吧减肥和Todo分开 (╯3╰) 还是一个一个来吧</p>
+			<p>今日更新 : 加了Navigator Section和三个按钮 (但是按了没事会发生🌝</p>
+		</section>
+	</div>	
+
+</body>
+
+<footer>
+	
+</footer>
+
+</html> 
