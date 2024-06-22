@@ -1,0 +1,77 @@
+body {
+	background-color: #FFF5E4;
+}
+
+#title {
+	text-align: center;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #755659 ;
+	color: whitesmoke;
+}
+
+.navigator {
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: #b79397 ;
+	display: flex;
+	padding: 1rem;
+}
+
+.nav-item {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 33.333%;
+	background-color: white;
+	border-radius: 25px;
+	border: solid 1px #755659 ;
+	text-align: center;
+	padding: 1.5rem;
+	transition-duration: 0.3s;
+  	cursor: pointer;
+}
+
+.nav-item:hover {
+  color:ghostwhite;
+  background-color: #755659;
+}
+
+.index {
+	margin-top: 30px;
+	width: 94%;
+	height: 120px;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: #b79397 ;
+}
+
+.indexcontext {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.notlink {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+	border-radius: 25px;
+	border: solid 1px #755659 ;
+	padding: 0.4rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.notlink:hover{
+	color:ghostwhite;
+	background-color: #755659;
+}
+
+.post-box {
+	margin: 2rem 1rem 2rem 1rem;
+	width: 94%;
+	background-color: white;
+	padding: 0.5rem;
+	border-radius: 25px;
+	border: solid 1px #755659 ;
+}
