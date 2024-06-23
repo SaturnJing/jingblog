@@ -1,33 +1,38 @@
 body {
 	background-color: #FFF5E4;
+	line-height: inherit;
+	margin: 0;
 }
 
-#title {
-	text-align: center; 
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	background-color: #755659 ;
+#header {
+	text-align: center;
+	background-image: url(BannerZAI.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60%;
 	color: whitesmoke;
 }
 
-.navigator {
-	margin-left: 3%;
-	margin-right: 3%;
-	background-color: #b79397 ;
+.title{
+	display: inline-block;
+	margin:10% 10% 10% 10%;
+	background-color: rgb(183, 147, 151, 0.5) ;
+}
+
+.nav {
 	display: flex;
-	padding: 1rem;
+	padding: 2rem;
 }
 
 .nav-item {
-	margin-left: 1rem;
-	margin-right: 1rem;
-	width: 33.333%;
+	margin:0 3% 0 3%;
+	padding: 1rem;
 	background-color: white;
 	border-radius: 25px;
 	border: solid 1px #755659 ;
 	text-align: center;
-	padding: 1.5rem;
+
 	transition-duration: 0.3s;
   	cursor: pointer;
 }
@@ -38,8 +43,8 @@ body {
 }
 
 .index {
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-color: #b79397;
 	padding: 0.1rem;
 	margin-top: 1rem;
