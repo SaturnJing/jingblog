@@ -87,10 +87,65 @@ body {
 }
 
 .post-box {
-	margin: 2rem 1rem 2rem 1rem;
+	margin: 2rem 1rem;
 	width: 94%;
 	background-color: rgba(255, 255, 255, 0.7);
 	padding: 0.5rem;
 	border-radius: 25px;
-	border: solid 1px rgba(34, 13, 84, 0.9) ;
+	border: solid 1px rgba(34, 13, 84, 0.9);
+	justify-content: center;
+}
+table {
+	width: 100%;
+}
+
+th {
+    border:1px solid black;
+	height: 2rem;
+	font-size: 1.5rem;
+}
+
+td {
+    border:1px solid black;
+    text-align: center;
+}
+
+.numrow {
+	width: 5%;
+}
+
+.mubiao{
+	width:65% ;
+}
+
+.zhuangtai, .biaoqian{
+	width:15% ;
+}
+
+.contentcontainer {
+	display: flex;
+	max-width: 100%;
+}
+
+.contentbigparent {
+	width: 70%;
+}
+
+.contentbig {
+	background-color: lightblue;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 15px;
+}
+
+.contentsmallparent {
+	width: 30%;
+}
+
+.contentsmall {
+	height: auto;
+	background-color: lightblue;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 15px;
 }
